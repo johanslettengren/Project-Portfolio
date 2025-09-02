@@ -6,7 +6,6 @@ This repository contains a selection of projects I have worked on during my stud
 Each project entry includes:
 - **Synopsis** – a short overview of the work  
 - **Key Results** – main findings and contributions  
-- **Future Directions** – possible extensions or open questions  
 - **Files** – direct links to papers, posters, or reports (when available)  
 
 The aim of this repository is to share my academic and research work in a clean and accessible way.  
@@ -18,8 +17,8 @@ Please note that some projects are *in preparation for publication* and therefor
 **Type:** Master’s Dissertation (University of Oxford)  
 **Status:** Manuscript in preparation for journal submission (not publicly shared)  
 
-### Abstract
-This dissertation explores the emerging field of structure-preserving operator learning, at the intersection of geometric numerical integration and scientific machine learning. Motivated by the tendency of conventional neural operators to violate intrinsic physical constraints — leading to unphysical solutions and instability over long time-horizons — two novel architectures are developed: the Quadratic First Integral Preserving DeepONet (QFIP-DeepONet) and the Symplectic Flow Network (SFN). These models incorporate physical constraints as a part of their architecture, aiming to enhance long-term stability without sacrificing predictive accuracy. The proposed architectures are evaluated on both ordinary and partial differential equations (ODEs and PDEs), specifically the harmonic oscillator and the non-linear Schrödinger equation. In the ODE setting, the QFIP-DeepONet effectively eliminates first integral drift and reduces generalisation error, although improvements in pointwise accuracy remain modest. Likewise, SFN achieves substantially lower generalisation error and improved stability, validating the benefit of enforcing symplectic structure, and in this case we see a significantly reduced accuracy. In the PDE experiments, structure-preserving models again demonstrate enhanced conservation of invariants and qualitative stability, although this does not always lead to improved quantitative results. Overall, the results demonstrate that embedding geometric structure into operator learning architectures can significantly improve the qualitative behaviour and reliability of data-driven models for dynamical systems. This work contributes to the growing field of physics-informed machine learning by advancing methods that respect the fundamental structures underpinning physical systems.
+### Synopsis
+This dissertation develops two novel architectures for **structure-preserving operator learning**: the Quadratic First Integral Preserving DeepONet (QFIP-DeepONet) and the Symplectic Flow Network (SFN). Both models embed conservation laws directly into their architectures, aiming to improve the long-term stability of neural operator predictions on ODEs and PDEs while respecting physical structure.
 
 ### Key Results
 - **QFIP-DeepONet** effectively eliminates first integral drift in ODEs and reduces generalization error, though with modest gains in pointwise accuracy.  
@@ -35,8 +34,9 @@ This dissertation explores the emerging field of structure-preserving operator l
 **Date:** January 2025  
 **File:** [Full Paper (PDF)](https://github.com/johanslettengren/Research-Projects/blob/main/NeuralTangentKernel.pdf)
 
-### Abstract
-This paper investigates the training dynamics of PINNs to address challenges in optimizing their loss functions. We review results from NTK theory, which explain common failures in PINN training and motivate preconditioning techniques to improve the loss landscape. While NTK theory offers valuable insights, certain results break down in the case of nonlinear PDEs. To address this, we explore second-order methods as a potential solution. Through numerical experiments, we validate NTK-based models and demonstrate their effectiveness in both linear and nonlinear regimes. Additional experiments show that preconditioning techniques and second-order methods outperform traditional optimizers, highlighting their potential for robust PINN training.
+### Synopsis
+This project investigates the training dynamics of **physics-informed neural networks (PINNs)** using **Neural Tangent Kernel (NTK) theory**. We compared NTK-based methods with second-order optimization techniques to better understand and address the failure modes of PINN training, especially in nonlinear PDEs.
+
 
 ### Key Results
 - Validated that NTK theory provides a theoretical explanation for failures in PINN training and motivates preconditioning techniques.  
@@ -51,8 +51,8 @@ This paper investigates the training dynamics of PINNs to address challenges in 
 **Date:** April 2025  
 **File:** [Full Paper (PDF)](https://github.com/johanslettengren/Research-Projects/blob/main/FEFE-CGENN.pdf)
 
-### Abstract
-We propose a general, learnable framework for multivector feature extraction in Clifford Group Equivariant Neural Networks (CGENNs), which addresses a key limitation in existing models. Our method—termed Full Equivariant Feature Ex- traction for Multivectors (FEFE)—leverages grade-wise projections and geomet- ric products to unify and extend previous ad-hoc approaches. We demonstrate improved performance across three benchmark tasks, including scalar and vector predictions.
+### Synopsis
+This work introduces **Full Equivariant Feature Extraction (FEFE)**, a unified framework for multivector feature extraction in Clifford Group Equivariant Neural Networks (CGENNs). Unlike previous ad-hoc methods, FEFE provides a principled, learnable approach that generalizes across tasks and improves consistency in benchmarking.
 
 ### Key Results
 - Demonstrated consistent improvements across three benchmark tasks (scalar and vector prediction).  
