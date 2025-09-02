@@ -6,9 +6,6 @@ Each project entry includes:
 - **Key Results**: main findings and contributions  
 - **Files**: direct links to papers, posters, or reports (when available)  
 
-The aim of this repository is to share my academic and research work in a clean and accessible way.  
-Please note that some projects are *in preparation for publication* and therefore only summaries are shared here.
-
 ## Structure-Preserving Neural Operators, Conservation Laws, and Symplectic Flows
 
 **Type:** Master’s Dissertation (University of Oxford)  
