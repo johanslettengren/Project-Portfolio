@@ -61,6 +61,7 @@ This work introduces **Full Equivariant Feature Extraction (FEFE)**, a unified f
 **Type:** Research Internship (Digital Futures Program, KTH Royal Institute of Technology)  
 **Date**: August 2025  
 **File:** [Poster](SyntheticDataGeneration.pdf)  
+**Code:** [GitHub Repo](https://github.com/johanslettengren/synthetic-anomaly-generation)
 
 ### Synopsis
 This project explored the use of **physics-informed neural networks (PINNs)** to accelerate simulations of water pipe networks, which are typically performed using EPANET. The key focus was on generating large volumes of **synthetic data for leak scenarios** via amortized prediction, enabling scalable anomaly detection in settings where real leaks are rare. By embedding governing hydraulic equations into the learning process, the PINN model generalized across multiple leak scenarios simultaneously, achieving accurate flow predictions while substantially reducing computational costs.
