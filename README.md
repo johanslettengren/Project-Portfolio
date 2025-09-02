@@ -9,7 +9,8 @@ Each project entry includes:
 ## Structure-Preserving Neural Operators, Conservation Laws, and Symplectic Flows
 
 **Type:** Master’s Dissertation (University of Oxford)  
-**Status:** Manuscript in preparation for journal submission (not publicly shared)  
+**Status:** Manuscript in preparation for journal submission 
+**Files:** not publicly shared
 
 ### Synopsis
 This dissertation develops two novel architectures for **structure-preserving operator learning**: the Quadratic First Integral Preserving DeepONet (QFIP-DeepONet) and the Symplectic Flow Network (SFN). Both models embed conservation laws directly into their architectures, aiming to improve the long-term stability of neural operator predictions on ODEs and PDEs while respecting physical structure.
