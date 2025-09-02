@@ -1,3 +1,22 @@
+## Structure-Preserving Neural Operators, Conservation Laws, and Symplectic Flows
+
+**Type:** Master’s Dissertation (University of Oxford)  
+**Status:** Manuscript in preparation for journal submission (not publicly shared)  
+**Date:** Trinity Term 2025  
+
+### Synopsis
+This dissertation explores the emerging field of **structure-preserving operator learning**, at the intersection of geometric numerical integration and scientific machine learning. The work introduces two novel architectures — the **Quadratic First Integral Preserving DeepONet (QFIP-DeepONet)** and the **Symplectic Flow Network (SFN)** — designed to respect conservation laws and symplectic structure in dynamical systems. These models aim to improve long-term stability of neural operator predictions without sacrificing accuracy.
+
+### Key Results
+- **QFIP-DeepONet** effectively eliminates first integral drift in ODEs and reduces generalization error, though with modest gains in pointwise accuracy.  
+- **Symplectic Flow Network (SFN)** achieves **substantially lower error and improved long-term stability**, validating symplectic structure as a powerful inductive bias.  
+- In PDE experiments (non-linear Schrödinger equation), structure-preserving models demonstrated **enhanced conservation of invariants and stability**, though not always leading to lower quantitative error.  
+
+### Outlook
+By embedding geometric structure directly into neural operator architectures, this work contributes to the development of reliable, physically-consistent scientific machine learning models. Extensions include broader applications to Hamiltonian PDEs, more complex conservation laws, and hybrid operator-integrator approaches.
+
+*Note: The full dissertation is not shared publicly as it is being prepared for publication. Please contact me if you are interested in discussing this work.*
+
 ## PINN Training via Neural Tangent Kernel: Insights and Limitations
 
 **Type:** Course Project (Theories of Deep Learning, University of Oxford)  
@@ -33,7 +52,8 @@ We propose a general, learnable framework for multivector feature extraction in 
 ## Synthetic Data Generation for Anomaly Detection in Water Pipe Networks
 
 **Type:** Research Internship (Digital Futures Program, KTH Royal Institute of Technology)  
-**Presented as:** Poster at Digital Futures Research Internship Symposium, 2025
+**Date**: August 2025
+**Presented as:** Poster at Digital Futures Research Internship Symposium
 **File:** [Poster (PDF)](SyntheticDataGeneration.pdf)
 
 ### Synopsis
