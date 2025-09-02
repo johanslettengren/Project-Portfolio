@@ -11,9 +11,6 @@ This dissertation explores the emerging field of **structure-preserving operator
 - **Symplectic Flow Network (SFN)** achieves **substantially lower error and improved long-term stability**, validating symplectic structure as a powerful inductive bias.  
 - In PDE experiments (non-linear Schrödinger equation), structure-preserving models demonstrated **enhanced conservation of invariants and stability**, though not always leading to lower quantitative error.  
 
-### Outlook
-By embedding geometric structure directly into neural operator architectures, this work contributes to the development of reliable, physically-consistent scientific machine learning models. Extensions include broader applications to Hamiltonian PDEs, more complex conservation laws, and hybrid operator-integrator approaches.
-
 *Note: The full dissertation is not shared publicly as it is being prepared for publication. Please contact me if you are interested in discussing this work.*
 
 ## PINN Training via Neural Tangent Kernel: Insights and Limitations
@@ -51,9 +48,9 @@ We propose a general, learnable framework for multivector feature extraction in 
 ## Synthetic Data Generation for Anomaly Detection in Water Pipe Networks
 
 **Type:** Research Internship (Digital Futures Program, KTH Royal Institute of Technology)  
-**Date**: August 2025
-**Presented as:** Poster at Digital Futures Research Internship Symposium
-**File:** [Poster (PDF)](SyntheticDataGeneration.pdf)
+**Date**: August 2025  
+**Presented as:** Poster at Digital Futures Research Internship Symposium  
+**File:** [Poster (PDF)](SyntheticDataGeneration.pdf)  
 
 ### Synopsis
 This project explored the use of **physics-informed neural networks (PINNs)** to accelerate simulations of water pipe networks, which are typically performed using EPANET. The key focus was on generating large volumes of **synthetic data for leak scenarios** via amortized prediction, enabling scalable anomaly detection in settings where real leaks are rare. By embedding governing hydraulic equations into the learning process, the PINN model generalized across multiple leak scenarios simultaneously, achieving accurate flow predictions while substantially reducing computational costs.
