@@ -2,7 +2,6 @@
 
 **Type:** Master’s Dissertation (University of Oxford)  
 **Status:** Manuscript in preparation for journal submission (not publicly shared)  
-**Date:** Trinity Term 2025  
 
 ### Synopsis
 This dissertation explores the emerging field of **structure-preserving operator learning**, at the intersection of geometric numerical integration and scientific machine learning. The work introduces two novel architectures — the **Quadratic First Integral Preserving DeepONet (QFIP-DeepONet)** and the **Symplectic Flow Network (SFN)** — designed to respect conservation laws and symplectic structure in dynamical systems. These models aim to improve long-term stability of neural operator predictions without sacrificing accuracy.
