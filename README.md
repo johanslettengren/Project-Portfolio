@@ -75,7 +75,7 @@ This project explored the use of **physics-informed neural networks (PINNs)** to
 
 **Type:** Bachelor’s Thesis (KTH Royal Institute of Technology)  
 **Date:** June 2023  
-**File:** [Full Thesis](Bachelors-Thesis.pdf)  
+**File:** [Full Thesis](BachelorThesis.pdf)  
 
 ### Synopsis
 This thesis investigates the potential of **brain-inspired machine learning models** for time series forecasting, with a focus on their ability to capture and exploit **dynamical memory**. Three approaches were implemented: a vanilla recurrent neural network (VRNN), a reservoir computing (RC) model, and a time-lagged reservoir computing (TLRC) model. For benchmarking, results were compared against the traditional statistical method ARIMA. The models were evaluated across both benchmark datasets (Mackey–Glass and Lorenz systems) and experimental data, including financial, environmental, and EEG recordings.  
