@@ -28,7 +28,7 @@ This dissertation develops two novel architectures for **structure-preserving op
 **Type:** Course Project (Theories of Deep Learning, University of Oxford)  
 **Grade:** 80 / 100  
 **Date:** January 2025  
-**File:** [Full Paper](https://github.com/johanslettengren/Research-Projects/blob/main/NeuralTangentKernel.pdf)
+**File:** [Full Paper](NeuralTangentKernel.pdf)
 
 ### Synopsis
 This project investigates the training dynamics of **physics-informed neural networks (PINNs)** using **Neural Tangent Kernel (NTK) theory**. We compared NTK-based methods with second-order optimization techniques to better understand and address the failure modes of PINN training, especially in nonlinear PDEs.
@@ -45,7 +45,7 @@ This project investigates the training dynamics of **physics-informed neural net
 **Type:** Course Project (Geometric Deep Learning, University of Oxford)  
 **Grade:** 74 / 100  
 **Date:** April 2025  
-**File:** [Full Paper](https://github.com/johanslettengren/Research-Projects/blob/main/FEFE-CGENN.pdf)
+**File:** [Full Paper](FEFE-CGENN.pdf)
 
 ### Synopsis
 This work introduces **Full Equivariant Feature Extraction (FEFE)**, a unified framework for multivector feature extraction in Clifford Group Equivariant Neural Networks (CGENNs). Unlike previous ad-hoc methods, FEFE provides a principled, learnable approach that generalizes across tasks and improves consistency in benchmarking.
@@ -69,4 +69,18 @@ This project explored the use of **physics-informed neural networks (PINNs)** to
 ### Key Results
 - PINN-based amortized data generation produced accurate predictions (NRMSD ≤ 10%) across leak scenarios.  
 - Showed strong scalability compared to traditional one-simulation-per-scenario methods.  
-- Demonstrated reduced runtime for large parameter sweeps (e.g., PINN outperformed simulator at higher grid resolutions and number of demand junctions).  
+- Demonstrated reduced runtime for large parameter sweeps (e.g., PINN outperformed simulator at higher grid resolutions and number of demand junctions).
+
+## Evaluating Brain-Inspired Models for Time Series Forecasting
+
+**Type:** Bachelor’s Thesis (KTH Royal Institute of Technology)  
+**Date:** June 2023  
+**File:** [Full Thesis](Bachelors-Thesis.pdf)  
+
+### Synopsis
+This thesis investigates the potential of **brain-inspired machine learning models** for time series forecasting, with a focus on their ability to capture and exploit **dynamical memory**. Three approaches were implemented: a vanilla recurrent neural network (VRNN), a reservoir computing (RC) model, and a time-lagged reservoir computing (TLRC) model. For benchmarking, results were compared against the traditional statistical method ARIMA. The models were evaluated across both benchmark datasets (Mackey–Glass and Lorenz systems) and experimental data, including financial, environmental, and EEG recordings.  
+
+### Key Results
+- **Reservoir computing models (RC, TLRC)** consistently outperformed the VRNN in terms of stability and accuracy, particularly in chaotic benchmark datasets.  
+- **TLRC** showed the strongest performance in two out of three univariate datasets, demonstrating that explicit use of historical information can boost predictive accuracy.  
+- Memory analysis showed that reservoir models capture historical dependencies.  
