@@ -14,3 +14,7 @@ This paper investigates the training dynamics of PINNs to address challenges in 
 **Grade:** 74 / 100  
 **Date:** April 2025  
 **File:** [Full Paper (PDF)](https://github.com/johanslettengren/Research-Projects/blob/main/FEFE-CGENN.pdf)
+
+### Abstract
+We propose a general, learnable framework for multivector feature extraction in Clifford Group Equivariant Neural Networks (CGENNs), which addresses a key limitation in existing models. Our method—termed Full Equivariant Feature Ex- traction for Multivectors (FEFE)—leverages grade-wise projections and geomet- ric products to unify and extend previous ad-hoc approaches. We demonstrate improved performance across three benchmark tasks, including scalar and vector predictions.
+
