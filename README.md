@@ -1,4 +1,4 @@
-# Welcome to my research portfolio! 
+# Welcome to my project portfolio! 
 
 This repository contains a selection of projects I have worked on during my studies and internships.  
 Each project entry includes:
