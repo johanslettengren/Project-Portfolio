@@ -1,6 +1,6 @@
 # Welcome to my research portfolio! 
 
-This repository contains a selection of projects I have worked on during my studies and research internships.  
+This repository contains a selection of projects I have worked on during my studies and internships.  
 Each project entry includes:
 - **Synopsis**: a short overview of the work  
 - **Key Results**: main findings and contributions  
