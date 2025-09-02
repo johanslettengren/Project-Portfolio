@@ -73,7 +73,7 @@ This project explored the use of **physics-informed neural networks (PINNs)** to
 
 ## Evaluating Brain-Inspired Models for Time Series Forecasting
 
-**Type:** Bachelor’s Thesis (KTH Royal Institute of Technology)  
+**Type:** Bachelor Thesis (KTH Royal Institute of Technology)  
 **Date:** June 2023  
 **File:** [Full Thesis](BachelorThesis.pdf)  
 
