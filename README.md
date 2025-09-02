@@ -52,9 +52,7 @@ We propose a general, learnable framework for multivector feature extraction in 
 
 **Type:** Research Internship (Digital Futures Program, KTH Royal Institute of Technology)  
 **Date**: August 2025
-
 **Presented as:** Poster at Digital Futures Research Internship Symposium
-
 **File:** [Poster (PDF)](SyntheticDataGeneration.pdf)
 
 ### Synopsis
