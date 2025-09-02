@@ -8,7 +8,7 @@ This dissertation explores the emerging field of structure-preserving operator l
 
 ### Key Results
 - **QFIP-DeepONet** effectively eliminates first integral drift in ODEs and reduces generalization error, though with modest gains in pointwise accuracy.  
-- **Symplectic Flow Network (SFN)** achieves **substantially lower error and improved long-term stability**, validating symplectic structure as a powerful inductive bias.  
+- **Symplectic Flow Network (SFN)** analytically preserves symplectic structure and **substantially lowers error and improved long-term stability** for ODE prediction.
 - In PDE experiments (non-linear Schrödinger equation), structure-preserving models demonstrated **enhanced conservation of invariants and stability**, though not always leading to lower quantitative error.  
 
 *Note: The full dissertation is not shared publicly as it is being prepared for publication. Please contact me if you are interested in discussing this work.*
