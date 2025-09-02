@@ -9,7 +9,8 @@ Each project entry includes:
 ## Structure-Preserving Neural Operators, Conservation Laws, and Symplectic Flows
 
 **Type:** Master’s Dissertation (University of Oxford)  
-**Status:** Manuscript in preparation for journal submission 
+**Grade:** 85 / 100  
+**Status:** Manuscript in preparation for journal submission  
 **Files:** not publicly shared
 
 ### Synopsis
@@ -27,7 +28,7 @@ This dissertation develops two novel architectures for **structure-preserving op
 **Type:** Course Project (Theories of Deep Learning, University of Oxford)  
 **Grade:** 80 / 100  
 **Date:** January 2025  
-**File:** [Full Paper (PDF)](https://github.com/johanslettengren/Research-Projects/blob/main/NeuralTangentKernel.pdf)
+**File:** [Full Paper](https://github.com/johanslettengren/Research-Projects/blob/main/NeuralTangentKernel.pdf)
 
 ### Synopsis
 This project investigates the training dynamics of **physics-informed neural networks (PINNs)** using **Neural Tangent Kernel (NTK) theory**. We compared NTK-based methods with second-order optimization techniques to better understand and address the failure modes of PINN training, especially in nonlinear PDEs.
@@ -44,7 +45,7 @@ This project investigates the training dynamics of **physics-informed neural net
 **Type:** Course Project (Geometric Deep Learning, University of Oxford)  
 **Grade:** 74 / 100  
 **Date:** April 2025  
-**File:** [Full Paper (PDF)](https://github.com/johanslettengren/Research-Projects/blob/main/FEFE-CGENN.pdf)
+**File:** [Full Paper](https://github.com/johanslettengren/Research-Projects/blob/main/FEFE-CGENN.pdf)
 
 ### Synopsis
 This work introduces **Full Equivariant Feature Extraction (FEFE)**, a unified framework for multivector feature extraction in Clifford Group Equivariant Neural Networks (CGENNs). Unlike previous ad-hoc methods, FEFE provides a principled, learnable approach that generalizes across tasks and improves consistency in benchmarking.
@@ -59,8 +60,7 @@ This work introduces **Full Equivariant Feature Extraction (FEFE)**, a unified f
 
 **Type:** Research Internship (Digital Futures Program, KTH Royal Institute of Technology)  
 **Date**: August 2025  
-**Presented as:** Poster at Digital Futures Research Internship Symposium  
-**File:** [Poster (PDF)](SyntheticDataGeneration.pdf)  
+**File:** [Poster](SyntheticDataGeneration.pdf)  
 
 ### Synopsis
 This project explored the use of **physics-informed neural networks (PINNs)** to accelerate simulations of water pipe networks, which are typically performed using EPANET. The key focus was on generating large volumes of **synthetic data for leak scenarios** via amortized prediction, enabling scalable anomaly detection in settings where real leaks are rare. By embedding governing hydraulic equations into the learning process, the PINN model generalized across multiple leak scenarios simultaneously, achieving accurate flow predictions while substantially reducing computational costs.
