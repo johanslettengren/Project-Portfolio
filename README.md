@@ -81,6 +81,6 @@ This project explored the use of **physics-informed neural networks (PINNs)** to
 This thesis investigates the potential of **brain-inspired machine learning models** for time series forecasting, with a focus on their ability to capture and exploit **dynamical memory**. Three approaches were implemented: a vanilla recurrent neural network (VRNN), a reservoir computing (RC) model, and a time-lagged reservoir computing (TLRC) model. For benchmarking, results were compared against the traditional statistical method ARIMA. The models were evaluated across both benchmark datasets (Mackey–Glass and Lorenz systems) and experimental data, including financial, environmental, and EEG recordings.  
 
 ### Key Results
-- **Reservoir computing models (RC, TLRC)** consistently outperformed the VRNN in terms of stability and accuracy, particularly in chaotic benchmark datasets.  
+- **Reservoir computing models** consistently outperformed VRNN in terms of stability and accuracy, particularly in chaotic benchmark datasets.  
 - **TLRC** showed the strongest performance in two out of three univariate datasets, demonstrating that explicit use of historical information can boost predictive accuracy.  
 - Memory analysis showed that reservoir models capture historical dependencies.  
