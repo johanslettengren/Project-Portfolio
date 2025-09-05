@@ -21,7 +21,7 @@ This dissertation develops two novel architectures for **structure-preserving op
 - **Symplectic Flow Network (SFN)** analytically preserves symplectic structure and **substantially lowers error and improved long-term stability** for ODE prediction.
 - In PDE experiments (non-linear Schrödinger equation), structure-preserving models demonstrated **enhanced conservation of invariants and stability**, though not always leading to lower quantitative error.  
 
-*Note: The full dissertation is not shared publicly as it is being prepared for publication. Please contact me if you are interested in discussing this work.*
+*Note: The full dissertation is not shared publicly as it's being prepared for publication. Please contact me if you'd like to discuss this work.*
 
 ## PINN Training via Neural Tangent Kernel: Insights and Limitations
 
