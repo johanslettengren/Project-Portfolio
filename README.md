@@ -10,7 +10,7 @@ Each project entry includes:
 
 **Type:** Master’s Dissertation (University of Oxford)  
 **Grade:** 85 / 100  
-**Status:** Manuscript in preparation for journal submission  
+**Status:** Paper in preparation for journal submission  
 **Files:** not publicly shared
 
 ### Synopsis
