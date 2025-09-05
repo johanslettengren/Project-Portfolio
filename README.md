@@ -37,7 +37,7 @@ This project investigates the training dynamics of **physics-informed neural net
 ### Key Results
 - Validated that NTK theory provides a theoretical explanation for failures in PINN training and motivates preconditioning techniques.  
 - Showed empirically that **NTK-based models can outperform Adam and Adam+L-BFGS**, even in nonlinear PDEs (contrary to prior claims).  
-- Demonstrated that **preconditioned PINNs (PCPINNs)** significantly reduce error — by **an order of magnitude** on challenging nonlinear PDEs (Heat2d-LT).  
+- Demonstrated that **preconditioned PINNs** significantly reduce error — by **an order of magnitude** on challenging nonlinear PDEs (Heat2d-LT).  
 - Found that second-order methods (e.g. Gradient-Damped Newton Descent, GDND) remain promising, achieving lowest error across multiple PDEs.
 
 ## Full Equivariant Feature Extraction for Multivectors in Clifford Group Equivariant Neural Networks
