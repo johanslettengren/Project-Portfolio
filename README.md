@@ -58,7 +58,7 @@ This work introduces **Full Equivariant Feature Extraction (FEFE)**, a unified f
 
 ## Synthetic Data Generation for Anomaly Detection in Water Pipe Networks
 
-**Type:** Research Internship (Digital Futures Program, KTH Royal Institute of Technology)  
+**Type:** Research Internship (Division of Decision and Control Systems at KTH, Digital Futures program)  
 **Date**: August 2025  
 **File:** [Poster](SyntheticDataGeneration.pdf)  
 **Code:** [GitHub Repo](https://github.com/johanslettengren/synthetic-anomaly-generation)
